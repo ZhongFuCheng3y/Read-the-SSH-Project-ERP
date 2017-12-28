@@ -21,7 +21,7 @@ public class BaseAction  extends ActionSupport{
 	public Integer dataTotal;
 	
 	public String getActionName(){
-		//动态
+		//动态。
 		//DepAction ->dep
 		//EmpAction ->emp
 		String actionName = this.getClass().getSimpleName();
